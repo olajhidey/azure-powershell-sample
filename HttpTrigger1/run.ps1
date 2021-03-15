@@ -20,10 +20,10 @@ Connect-AzureAD -Credential $Credential
 # Display users
 Write-Host "<==== Print MSOnline Users Start ====>"
 
-Get-AzureADUser -Filter "userPrincipalName eq 'tex_lag_olawoy@tex.support.microsoft.com'"
+Get-AzureADUser -Filter "userPrincipalName eq 'xxxxxxxxxxxxxx'"
 
-$TenantId = "fa0a1ef4-7440-41db-8b65-92b20b3f344d"
-$ClientId = "95b10674-3172-4bcf-8a34-22b156aa4754"
+$TenantId = "xxxxxxxxxxxxxxx"
+$ClientId = "xxxxxxxxxxxxxxx"
 
 $TokenRequestParams = @{
     Method = 'POST'
